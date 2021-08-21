@@ -1,0 +1,26 @@
+{
+  "name": "khalish29.github.io-3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "css-pro" : "cross-env NODE_ENV=production tailwindcss -i src/styles.css -o dist/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khalish29/khalish29.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khalish29/khalish29.github.io/issues"
+  },
+  "homepage": "https://github.com/khalish29/khalish29.github.io#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.3.1",
+    "cross-env": "^7.0.3",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.7"
+  }
+}
